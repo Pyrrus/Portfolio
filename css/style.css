@@ -1,50 +1,51 @@
 body {
-	font-family: sans-serif;
-	background-color: #39CCB6;
+    font-family: sans-serif;
+    background-color: #39CCB6;
 }
 
 a {
-	color: green;
+    color: green;
 }
 
 .navbar {
-	background-color: #737F7E;
+    background-color: #737F7E;
 }
 
 .navbar a {
-	color: #47FFE3;
+    color: #47FFE3;
 }
 
-.nav > li > a:focus, .nav > li > a:hover {
-	background-color: #39CCB6;
-	color: #247F72;
+.nav > li > a:focus,
+.nav > li > a:hover {
+    background-color: #39CCB6;
+    color: #247F72;
 }
 
 .left {
-	float: left;
+    float: left;
 }
 
 .right {
-	float: right;
+    float: right;
 }
 
 .half {
-	width: 50%;
-	height: auto;
+    width: 50%;
+    height: auto;
 }
 
 .center {
-	text-align: center;
+    text-align: center;
 }
 
 .centerimg {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .padding {
-	padding: 15px;
+    padding: 15px;
 }
 
 h3 {
@@ -52,44 +53,58 @@ h3 {
 }
 
 .numberNone {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 .numberNone ul {
-	padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 990px) {
     .numberNone li {
-		float: left;
-		padding-right: 30px;
-		padding-bottom: 10px;
-	}
+        float: left;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
 }
 
 .listNone {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 .bar-color span {
-	background-color: #47FFE3;
+    background-color: #47FFE3;
 }
 
 .form-horizontal textarea {
-	height: 150px;
+    height: 150px;
 }
 
 .listNone a:hover {
-	font-size: 16px;
-	text-decoration: none;
-	color: green;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 
 .project {
+	border: 2px solid black;
+	padding: 10px;
+	margin-bottom: 15px;
 }
 
 .hProject {
-	border-bottom: 2px dotted green;
-	width: 300px;
-	text-align: left;
+    border-bottom: 2px dotted black;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.dProject a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.dProject li {
+	padding-bottom: 10px;
+	margin-left: -15px;
 }
