@@ -1,0 +1,30 @@
+body {
+	font-family: sans-serif;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.half {
+	width: 50%;
+	height: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.centerimg {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.padding {
+	padding: 15px;
+}
