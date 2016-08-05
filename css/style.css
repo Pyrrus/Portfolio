@@ -28,3 +28,13 @@ body {
 .padding {
 	padding: 15px;
 }
+
+h3 {
+    text-align: center;
+}
+
+.side {
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 25px;
+}
