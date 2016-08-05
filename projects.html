@@ -1,119 +1,101 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>Adam Gorbahn's Project</title>
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-
-<body>
-
-  <!-- start nav bar -->
-
-  <nav class="navbar">
+  <head>
+    <title>Adam Gorbahn's Project</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <!-- start nav bar -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed bar-color" data-toggle="collapse" data-target="#dropdown">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          <a class="navbar-brand" href="index.html">Adam Gorbahn's Portfolio</a>
+        </div>
+        <div id="dropdown" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="projects.html">Projects</a>
+            </li>
+            <li>
+              <a href="contect.html">Contect Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav bar -->
     <div class="container">
-      <div class="navbar-header">
-
-        <button type="button" class="navbar-toggle collapsed bar-color" data-toggle="collapse" data-target="#dropdown">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-        <a class="navbar-brand" href="index.html">Adam Gorbahn's Portfolio</a>
+      <h1 class="center">Adam Gorbahn's Project</h1>
+      <div class="row">
+        <div class="col-md-12">
+          <h3><em><strong>Portfolio Projects <span class="glyphicon glyphicon-briefcase"></span></strong></em></h3>
+        </div>
       </div>
-
-      <div id="dropdown" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li class="active">
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="projects.html">Projects</a>
-          </li>
-          <li>
-            <a href="contect.html">Contect Me</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- end nav bar -->
-
-  <div class="container">
-
-    <h1 class="center">Adam Gorbahn's Project</h1>
-
-    <div class="row">
-      <div class="col-md-12">
-        <h3><em><strong>Portfolio Projects <span class="glyphicon glyphicon-briefcase"></span></strong></em></h3>
-      </div>
-    </div>
-
-    <!-- Project -->
-    <div class="row">
-      <div class="col-md-6">
-        <div class="project">
-          <h3 class="hProject">Protflio</h3>
-          <ul class="dProject">
+      <!-- Project -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="project">
+            <h3 class="hProject">Protflio</h3>
+            <ul class="dProject">
               <li>This will lead you to my git repository for this site.</li>
               <li>Technologies: HTML, Bootstrap, and CSS</li>
               <li>link:<a href="https://github.com/Pyrrus/Portfolio">Portflio</a></li>
-          </ul>
-        </div>
-
-        <div class="project">
-          <h3 class="hProject">Wikipedia Look-A-Like</h3>
-          <ul class="dProject">
+            </ul>
+          </div>
+          <div class="project">
+            <h3 class="hProject">Wikipedia Look-A-Like</h3>
+            <ul class="dProject">
               <li>Rebuild the Wikipedia page using Bootstrap.</li>
               <li>Technologies: HTML, Bootstrap, and CSS</li>
               <li>link:<a href="https://github.com/Pyrrus/wiki-page">Wikipedia Look-A-Like</a></li>
-          </ul>
-        </div>
-
-        <div class="project">
-          <h3 class="hProject">DurandalJS and NodeJS</h3>
-          <ul class="dProject">
+            </ul>
+          </div>
+          <div class="project">
+            <h3 class="hProject">DurandalJS and NodeJS</h3>
+            <ul class="dProject">
               <li>DurandalJS is a type of front end framework like AngularJS.</li>
               <li>The backend is NodeJS</li>
               <li>Technologies: HTML, Bootstrap, CSS, DurandalJS, and NodeJS</li>
               <li>link:<a href="https://github.com/Pyrrus/durandaljs">DurandalJS</a></li>
-          </ul>
+            </ul>
+          </div>
         </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="project">
-          <h3 class="hProject">3dMaze</h3>
-          <ul class="dProject">
+        <div class="col-md-6">
+          <div class="project">
+            <h3 class="hProject">3dMaze</h3>
+            <ul class="dProject">
               <li>3dMaze is Androind app using OpenGL ES 2.</li>
               <li>App goal to make a 3D random maze in bird eye view.</li>
               <li>Technologies: Java and OpenGL ES 2</li>
               <li>link:<a href="https://github.com/Pyrrus/3dMaze">3dMaze</a></li>
-          </ul>
-        </div>
-
-        <div class="project">
-          <h3 class="hProject">MEAN API</h3>
-          <ul class="dProject">
+            </ul>
+          </div>
+          <div class="project">
+            <h3 class="hProject">MEAN API</h3>
+            <ul class="dProject">
               <li>This my first time using MEAN to make an API.</li>
               <li>MEAN means (MongoDB, ExpressJS, AngularJS, NodeJS)</li>
               <li>Technologies: MongoDB, ExpressJS, AngularJS, NodeJS, HTML, and Bootstrap</li>
               <li>link:<a href="https://github.com/Pyrrus/Portfolio">Portflio</a></li>
-          </ul>
+            </ul>
+          </div>
         </div>
-        
+        <!-- end Project -->
       </div>
-      <!-- end Project -->
+      <h5 class="center">Copyright &copy Adam Gorbahn</h5>
     </div>
-
-    <h5 class="center">Copyright &copy Adam Gorbahn</h5>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
