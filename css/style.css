@@ -86,5 +86,10 @@ h3 {
 }
 
 .project {
+}
 
+.hProject {
+	border-bottom: 2px dotted green;
+	width: 300px;
+	text-align: left;
 }
